@@ -743,7 +743,7 @@ a {
     margin-bottom: 24px;
 }
 
-.modal-check-text .time-check-icon{
+.time-check-icon{
     width: 16px;
     height: 16px;
     border-radius: 2px;
@@ -753,8 +753,7 @@ a {
     justify-content: center;
     fill: transparent;
     margin-right: 8px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-check:checked + .modal-check-text .time-check-icon {
@@ -795,6 +794,7 @@ a {
     height: 56px;
     display: block;
     margin: auto;
+    cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
